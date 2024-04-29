@@ -13,10 +13,10 @@ metadata:
 spec:
   hard:
     pods: "3"
-    requests.cpu: "1"
-    requests.memory: 1Gi
-    limits.cpu: "3"
-    limits.memory: 3Gi
+    requests.cpu: "500m"
+    requests.memory: 512Mi
+    limits.cpu: "500m"
+    limits.memory: 512Mi
 ---
 apiVersion: apps/v1
 kind: Deployment
